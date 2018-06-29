@@ -18,5 +18,8 @@ class EnterActivity : AppCompatActivity() {
         kotlin_btn.setOnClickListener {
             startActivity(Intent(this, MainActivity::class.java))
         }
+        socket_btn.setOnClickListener {
+            startActivity(Intent(this, SocketActivity::class.java))
+        }
     }
 }
